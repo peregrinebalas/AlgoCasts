@@ -17,7 +17,36 @@
 
 function matrix(n) {
     let m = []
-    
+
+    for (let i = 0; i < n; i++) {
+        m.push(new Array(n))
+    }
+
+    let sc = 0
+    let sr = 0
+    let ec = n-1
+    let er = n-1
+    while (sr != er && sc != ec) {
+        for (let i = 0; i < n; j++) {
+            m[i][j] = x
+            x++
+        }
+
+        for (let j = sr; i < n; j++) {
+            m[i][j] = x
+            x++
+        }
+
+        for (let j = sr; i < n; j++) {
+            m[i][j] = x
+            x++
+        }
+
+        for (let j = sr; i < n; j++) {
+            m[i][j] = x
+            x++
+        }
+    }
 }
 
 module.exports = matrix;
