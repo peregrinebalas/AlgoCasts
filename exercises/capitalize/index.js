@@ -8,9 +8,9 @@
 //   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 function capitalize(str) {
-    let words = str.split(" ")
+    let words = 
     let caps = []
-    for (let word of words) {
+    for (let word of str.split(" ")) {
         word.replace(word[0], word[0].toUpperCase())
     }
 

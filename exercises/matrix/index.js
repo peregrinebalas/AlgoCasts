@@ -22,6 +22,7 @@ function matrix(n) {
         m.push(new Array(n))
     }
 
+    let x = 1
     let sc = 0
     let sr = 0
     let ec = n-1
