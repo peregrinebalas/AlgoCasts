@@ -18,7 +18,13 @@
 //       '####'
 
 function steps(n) {
-    
+    let count = n-1
+    let s = '#'
+    while (count >= 0) {
+        console.log(s + " ".repeat(count))
+        count--
+        s = s + "#"
+    }
 }
 
 module.exports = steps;
